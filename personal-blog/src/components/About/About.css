@@ -1,0 +1,33 @@
+.fondo2{
+    background-color: #2ecc71;
+    padding: 1px 0px 50px 50px;
+}
+.cont-sobre{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 150px;
+}
+.cont-retrato{
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color:#20815f;
+    justify-content: center;
+    box-shadow:  -5px -5px 19px #186a3b;
+}
+
+
+.retrato{
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
+}
+
+.dibujo{
+    height: 600px;
+    width: 600px;
+}
