@@ -31,3 +31,18 @@
     height: 600px;
     width: 600px;
 }
+
+.cont-bio{
+    border-radius: 25px;
+    display: flex;
+    box-shadow:  -5px -5px 19px #186a3b;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    margin: 50px 25px;
+    color:rgb(28, 40, 51)
+}
+
+.cont-text{
+    margin: 0px 20px
+}

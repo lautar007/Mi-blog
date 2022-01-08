@@ -4,7 +4,10 @@ import './NavBar.css';
 
 
 export default function Navbar (){
-    
+
+const url = window.location.href;
+console.log(url)
+
     return(
         <div className="navBar">
             <Link to= '/'>
@@ -18,7 +21,11 @@ export default function Navbar (){
                 <Link to= '/about'>
                    <button className="boton2"> About Me </button>
                 </Link>
-                <button className="boton1" onClick={(e)=>{window.scroll({top: 710, left:0, behavior:'smooth'})}}> Projects </button>
+                <button className="boton1" onClick={(e)=>{
+                   url === 'http://localhost:3000/' ? window.scroll({top: 710, left:0, behavior:'smooth'})
+                :
+                window.location = 'http://localhost:3000/';
+                }}> Projects </button>
                 <button className="boton1"> Resume </button>
             </div>
         </div>
