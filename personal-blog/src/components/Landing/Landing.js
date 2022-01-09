@@ -54,11 +54,14 @@ const typed = React.useRef(null);
             <img className="images" src="https://i.pinimg.com/564x/dc/b7/14/dcb71438dcac88b5ab2a2b7e410bd17f.jpg"></img>
             <h3 className="proyect-text">|Académica| FullStack Developer - Countries App</h3>
             <p className="proyect-text">- Proyecto individual de creación de una Sinlge Page Application para la creación de actividades turísticas y la posibilidad de adjudicarlos a diferentes países.</p>
+            <a className="visit" href="https://pi-countries-henry.vercel.app/">Visitar</a>
           </div>
+          
           <div className="proyect-1">
             <img className="images" src="https://i.pinimg.com/564x/cc/63/d3/cc63d3aea1eccf6a83908cf6db799ae3.jpg"></img>
             <h3 className="proyect-text">|Académico| Fullstack developer - Eventy</h3>
             <p className="proyect-text">Proyecto grupal sobre una red social para la creación y promoción de eventos sociales y deportivos.</p>
+            <a className="visit" href="https://eventy-main.vercel.app/">Visitar</a>
           </div>
         </div>
       </div>

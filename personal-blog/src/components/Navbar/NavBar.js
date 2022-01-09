@@ -26,7 +26,9 @@ console.log(url)
                 :
                 window.location = 'http://localhost:3000/';
                 }}> Projects </button>
-                <button className="boton1"> Resume </button>
+                <Link to = '/resume'>
+                <button className="boton2"> Resume </button>
+                </Link>
             </div>
         </div>
     )

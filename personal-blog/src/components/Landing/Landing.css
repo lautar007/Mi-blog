@@ -63,7 +63,7 @@ background: linear-gradient(315deg, #29b866, #31da79);
 box-shadow:  -20px -20px 60px #27ad60,
              20px 20px 60px #35eb82;
 width: 600px;
-height: 400px;
+height: 450px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -79,4 +79,23 @@ justify-content: center;
 .proyect-text{
     color:rgb(28, 40, 51);
     margin: 5px 10px;
+}
+
+.visit{
+    background-color: #186a3b;
+    padding: 5px;
+    width: 60px;
+    margin-left: 45%;
+    margin-top: 10px;
+    color:white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:rgb(126, 238, 98);
+    transition: 500ms;
+}
+
+.visit:hover{
+    background-color: rgb(126, 238, 98);
+    color: rgb(28, 40, 51);
+    border-color:rgb(28, 40, 51);
 }
