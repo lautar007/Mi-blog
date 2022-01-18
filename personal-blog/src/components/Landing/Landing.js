@@ -2,9 +2,13 @@ import React from "react";
 import './Landing.css';
 import Typed from 'typed.js';
 import { Link } from "react-router-dom";
+import Eventy from "../Eventy/Eventy";
 
 
 export default function Landing(){
+
+const fecha = new Date();
+console.log(fecha.toLocaleDateString())
 
 const el = React.useRef(null);
   // Create reference to store the Typed instance itself
@@ -50,18 +54,48 @@ const typed = React.useRef(null);
         </div>
         <h1 className="proyects">Proyectos</h1>
         <div className="proyect-grid">
+
           <div className="proyect-1">
             <img className="images" src="https://i.pinimg.com/564x/dc/b7/14/dcb71438dcac88b5ab2a2b7e410bd17f.jpg"></img>
             <h3 className="proyect-text">|Académica| FullStack Developer - Countries App</h3>
             <p className="proyect-text">- Proyecto individual de creación de una Sinlge Page Application para la creación de actividades turísticas y la posibilidad de adjudicarlos a diferentes países.</p>
-            <a className="visit" href="https://pi-countries-henry.vercel.app/">Visitar</a>
+            <div className="links">
+              <a className="visit" href="https://pi-countries-henry.vercel.app/">Visitar</a>
+              <Link to='/countries'>
+              <button className="detail">Detalle / Detail</button>
+              </Link>
+            </div>  
           </div>
           
           <div className="proyect-1">
             <img className="images" src="https://i.pinimg.com/564x/cc/63/d3/cc63d3aea1eccf6a83908cf6db799ae3.jpg"></img>
             <h3 className="proyect-text">|Académico| Fullstack developer - Eventy</h3>
             <p className="proyect-text">Proyecto grupal sobre una red social para la creación y promoción de eventos sociales y deportivos.</p>
-            <a className="visit" href="https://eventy-main.vercel.app/">Visitar</a>
+            <div className="links">
+              <a className="visit" href="https://eventy-main.vercel.app/">Visitar</a>
+              <Link to='/eventy'>
+              <button className="detail">Detalle / Detail</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="pie">
+          <div>
+            <div className="ig">
+              <img className="icon" src="https://i.pinimg.com/564x/9b/92/44/9b9244c5bfb46b16a210c4d9fd41598a.jpg"></img>
+              <a className="href" href="https://www.instagram.com/lautar0_07/">@lautar0_07</a>
+            </div>
+            <div className="ig">
+              <img className="icon" src="https://i.pinimg.com/564x/2b/e7/ce/2be7cee4fe404b8fa86d31d139fab757.jpg"></img>
+              <a className="href" href="https://www.linkedin.com/in/lautaro-nu%C3%B1ez-117a3b18b/">Lautaro Nuñez</a>
+            </div>
+            <div className="ig">
+              <img className="icon" src="https://i.pinimg.com/564x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg"></img>
+              <a className="href" href="https://github.com/lautar007">Lautaro Nuñez</a>
+            </div>
+          </div>
+          <div className="fecha">
+          <p>{fecha.toLocaleDateString()}</p>
           </div>
         </div>
       </div>

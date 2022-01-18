@@ -1,3 +1,18 @@
 .resume{
     width:70%;
 }
+
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont-resume{
+    background-color: white;
+    box-shadow:  -5px -5px 19px #186a3b;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 32%;
+    color: #20815f;
+}

@@ -1,7 +1,7 @@
 .fondo{
     background-color: #2ecc71;
-    padding-bottom: 200px;
-    margin: 0px
+    background-size: cover;
+    padding: 1px;
 }
 .Landing{
 background-color: #2ecc71;
@@ -53,7 +53,7 @@ margin-bottom: 50px;
 
 .proyect-grid{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 margin: 50px 75px;
 }
 
@@ -64,21 +64,30 @@ box-shadow:  -20px -20px 60px #27ad60,
              20px 20px 60px #35eb82;
 width: 600px;
 height: 450px;
+margin: 1%;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-around;
 }
 
 .images{
     border-radius: 50px;
-    margin-left: 25px;
-    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     width: 550px;
+    height: 250px;
 }
 
 .proyect-text{
     color:rgb(28, 40, 51);
     margin: 5px 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
 }
 
 .visit{
@@ -98,4 +107,52 @@ justify-content: center;
     background-color: rgb(126, 238, 98);
     color: rgb(28, 40, 51);
     border-color:rgb(28, 40, 51);
+}
+
+.detail{
+    background-color: #186a3b;
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    color:white;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(126, 238, 98);
+    transition: 500ms;
+}
+.detail:hover{
+    background-color: rgb(126, 238, 98);
+    color: rgb(28, 40, 51);
+    border-color:rgb(28, 40, 51);
+}
+
+.pie{
+    background-color: rgb(28, 40, 51 );
+    color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ig{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.href{
+    color: white;
+    margin: 5%;
+    width: 150px;
+}
+
+.icon{
+    border-radius: 50px;
+    width: 50px;
+}
+
+.fecha{
+    margin-right: 2%;
 }

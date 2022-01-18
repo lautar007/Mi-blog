@@ -1,0 +1,47 @@
+.images{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.screenshot{
+    margin: 5px 10%;
+    border-radius: 25px;
+    box-shadow:  -5px -5px 19px #186a3b;
+    width: 350px;
+    height: 175px;
+}
+
+.detalle{
+    background-color: white;
+    box-shadow:  -5px -5px 19px #186a3b;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 6%;
+    margin-bottom: 50px;
+    color: #20815f;
+    padding: 5px 50px;
+}
+
+.botonera1{
+    display: flex;
+    justify-content: center;
+}
+
+.visita{
+    background-color: #186a3b;
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+    color:white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:rgb(126, 238, 98);
+    transition: 500ms;
+}
+.visita:hover{
+    background-color: rgb(126, 238, 98);
+    color: rgb(28, 40, 51);
+    border-color:rgb(28, 40, 51);
+    
+}

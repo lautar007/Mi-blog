@@ -7,10 +7,12 @@ export default function Resume(){
     return (
         <div>
             <div className="fondo2">
-                <h1 className="proyects">Resume</h1>
-                <div className="cont-retrato">
-                    <h1>Descarga mi CV</h1>
-                    <h2>Download my Resume</h2>
+                <div className="centrar">
+                  <h1 className="proyects">Resume</h1>
+                  <div className="cont-resume">
+                      <h1>Descarga mi CV</h1>
+                      <h2>Download my Resume</h2>
+                  </div>
                 </div>
             </div>
         </div>
