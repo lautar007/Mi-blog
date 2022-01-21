@@ -12,7 +12,7 @@ export default function Resume(){
               <h1 className="proyects">Resume</h1>
             </div>
           <object
-          data={require('./CVP-ENGLISH.pdf')}
+          data={require('./CVP-ENGLISHv2.pdf')}
           type="application/pdf"
           width= '100%'
           height= '500px'
