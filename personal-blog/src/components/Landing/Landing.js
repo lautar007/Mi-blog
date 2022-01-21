@@ -35,6 +35,7 @@ const typed = React.useRef(null);
   }, [])
 
     return(
+      <div>
       <div className="fondo">
         <div className="Landing">
             <div className="target">
@@ -79,6 +80,10 @@ const typed = React.useRef(null);
             </div>
           </div>
         </div>
+
+        </div>
+        <div>  
+
         <div className="pie">
           <div>
             <div className="ig">
@@ -98,6 +103,7 @@ const typed = React.useRef(null);
           <p>{fecha.toLocaleDateString()}</p>
           </div>
         </div>
+      </div>
       </div>
     )
 }
